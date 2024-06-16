@@ -3,15 +3,78 @@
 	src: url(caslonReg.otf);
 }
 
-h1 {
+#logo {
 	font-family: caslonReg;
 	color: #003C43;
 	text-align: center;
 	font-size: 3em;
+	margin-left: 1em;
+}
+
+h1{
+	font-family: caslonReg;
+	color: #003C43;
+	text-align: right;
+	margin-right: 1em;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: caslonReg;
+	color: #003C43;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-family: caslonReg;
+	color: #58A399;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 body {
 	min-height: 100vh;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to bottom, #F1EEDC, #E5DDC5);
+	background-image: linear-gradient(to bottom, #FFFFFF, #F1EEDC);
+}
+
+.sidebar {
+	width: 7em;
+	margin-right: 1em;
+	height: 100vh;
+	/*background-color: #f1f1f1;*/
+	float: left;
+}
+
+.sidebar li{
+	margin-top: 1.5em;
+}
+
+.sidebar ul{
+	list-style-type: none;
+}
+
+.sidebar a{
+	font-family: caslonReg;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #135D66;
+	text-decoration: none;
+}
+
+p{
+	font-family: caslonReg;
+	color: #135D66;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a {
+	font-family: caslonReg;
+	color: #135D66;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: 0;
 }
