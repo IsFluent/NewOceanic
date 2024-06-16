@@ -1,0 +1,8 @@
+@font-face {
+	font-family: calsonReg;
+	src: url(calsonReg.otf);
+}
+
+h1 {
+	font-family: calsonReg;
+}
