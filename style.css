@@ -90,6 +90,7 @@ body {
     margin-top: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-bottom: 3rem;
 }
 
 mark {
@@ -106,7 +107,7 @@ mark {
     font-size: 1rem;
     display: inline-block;
     vertical-align: top;
-    margin-top: 0.5rem;
+    margin-top: 8px;
     margin-bottom: 1.5rem;
     letter-spacing: 0.5px;
 }
@@ -120,7 +121,7 @@ mark {
     font-family: fraunceslight;
     font-style: normal;
     font-weight: 100;
-    font-size: 2em;
+    font-size: 2rem;
     color: #000000;
     text-decoration: none;
 }
@@ -133,4 +134,37 @@ p {
     font-family: inter;
     font-size: 1.1rem;
     font-weight: 300;
+}
+
+#latest {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.latestphoto {
+    width: 100%;
+    border-radius: 6px;
+}
+
+h6 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.larticle {
+    font-family: fraunceslight;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.larticle:hover {
+    text-decoration: underline;
 }
