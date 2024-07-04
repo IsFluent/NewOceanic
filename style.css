@@ -1,0 +1,136 @@
+@font-face {
+    font-family: fraunces;
+    src: url(frauncesvar.ttf);
+}
+
+@font-face {
+    font-family: fraunceslight;
+    src: url(fraunceslight.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(intervar.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+#topbar {
+    background-color: #edf2fc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: fraunces;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.2rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.5rem;
+    margin-top: 20px;
+}
+
+#logopng {
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.5rem;
+}
+
+#about {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 23px;
+    margin-right: 2.5rem;
+    margin-left: auto;
+    font-family: inter;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #3080ff;
+    font-weight: 500;
+}
+
+
+#bottombar {
+    background-color: #edf2fc;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#introtop {
+    font-family: fraunceslight;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    max-width: 50rem;
+    margin-bottom: 20px;
+}
+
+#introbottom {
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+#featured {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+mark {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: top;
+    color: #006BB1;
+}
+
+.smalltitle {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.featuredphoto {
+    width: 100%;
+    border-radius: 6px;
+}
+
+#farticle {
+    font-family: fraunceslight;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2em;
+    color: #000000;
+    text-decoration: none;
+}
+
+#farticle:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
